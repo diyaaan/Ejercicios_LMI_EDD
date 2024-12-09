@@ -1,0 +1,24 @@
+site_name: 'Documentacio de les tasques'
+theme:
+  name: 'material'
+  custom_dir: 'overrides'
+  palette:
+    primary: 'indigo'
+    accent: 'pink'
+    background: 'white'
+    surface: 'grey'
+    error: 'red'
+extra_css:
+  - 'overrides/extra.css'
+
+nav:
+  - Inici: index.md
+  - Article LMI:
+    - Característiques dels Llenguatges de Marques: lmi/documento_1.md
+  - Articles EDD:
+    - Llenguajes De Programacio Mes Utilitzats: edd/documento_1.md
+    - Como plantear el desarrollo de una app: edd/documento_2.md
+    - ¿Qué es el "L'efecte Bola de Neu"?: edd/documento_3.md
+    - Web de una empresa: edd/documento_4.md
+    - Scrum: edd/documento_5.md
+    - Ejemplos de traduccion entre lenguajes: edd/documento_6.md
